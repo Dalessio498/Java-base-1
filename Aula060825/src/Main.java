@@ -5,9 +5,9 @@ public class Main {
 
     {
 
-        //Criando um array de valores inteiros de 5 posições
+        //Criando um array de valores inteiros de 5 posições ou determinadas pelo usuario
         int[] numeros = new int[5];
-        //Preenchendo o array com valores multiplicando o indicie por 10
+        //Preenchendo o array com valores multiplicando o indicie por 10 ou determinadas pelo usarios
         for(int i =0; i<numeros.length; i++)
 
         {
