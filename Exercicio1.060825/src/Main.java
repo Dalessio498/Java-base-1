@@ -6,13 +6,13 @@ public class Main {
     {
 
         //Criando um array de valores inteiros de 5 posições
-        int[] numeros = new int[5];
+        int[] numeros = new int[10];
         //Preenchendo o array com valores multiplicando o indicie por 10
         for(int i =0; i<numeros.length; i++)
 
         {
 
-            numeros[i] = i*10; //exemplo: 0, 10, 20, 30, 40
+            numeros[i] = i*5; //exemplo: 0, 10, 20, 30, 40
 
         }
 
@@ -23,7 +23,7 @@ public class Main {
 
         {
 
-        System.out.println("numero: " + numero);
+            System.out.println("numero: " + numero);
 
         }
     }
